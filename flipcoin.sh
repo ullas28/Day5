@@ -1,8 +1,8 @@
 #!/bin/bash
-Head orTail=$((RANDOM%2))
-if [ $'Head or Tail' -eq 0 ]
+HeadorTail=$((RANDOM%2))
+if [ $HeadorTail -eq 0 ]
 then
- 	echo "head"
+        echo "head"
 else
-	echo "tail"
+        echo "tail"
 fi
